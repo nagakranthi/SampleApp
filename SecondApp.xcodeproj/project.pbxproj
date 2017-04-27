@@ -15,6 +15,7 @@
 		04AFC2461EB17EE1003FE204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AFC2441EB17EE1003FE204 /* LaunchScreen.storyboard */; };
 		04AFC2511EB17EE1003FE204 /* SecondAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC2501EB17EE1003FE204 /* SecondAppTests.m */; };
 		04AFC25C1EB17EE1003FE204 /* SecondAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC25B1EB17EE1003FE204 /* SecondAppUITests.m */; };
+		04AFC26B1EB17F86003FE204 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC26A1EB17F86003FE204 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		04AFC2571EB17EE1003FE204 /* SecondAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AFC25B1EB17EE1003FE204 /* SecondAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondAppUITests.m; sourceTree = "<group>"; };
 		04AFC25D1EB17EE1003FE204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AFC2691EB17F86003FE204 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		04AFC26A1EB17F86003FE204 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				04AFC2391EB17EE1003FE204 /* AppDelegate.h */,
 				04AFC23A1EB17EE1003FE204 /* AppDelegate.m */,
 				04AFC23C1EB17EE1003FE204 /* ViewController.h */,
+				04AFC2691EB17F86003FE204 /* SecondViewController.h */,
+				04AFC26A1EB17F86003FE204 /* SecondViewController.m */,
 				04AFC23D1EB17EE1003FE204 /* ViewController.m */,
 				04AFC23F1EB17EE1003FE204 /* Main.storyboard */,
 				04AFC2421EB17EE1003FE204 /* Assets.xcassets */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AFC26B1EB17F86003FE204 /* SecondViewController.m in Sources */,
 				04AFC23E1EB17EE1003FE204 /* ViewController.m in Sources */,
 				04AFC23B1EB17EE1003FE204 /* AppDelegate.m in Sources */,
 				04AFC2381EB17EE1003FE204 /* main.m in Sources */,
